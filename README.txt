@@ -8,7 +8,7 @@ if ([self.navigationController.navigationBar respondsToSelector:@selector( setBa
                 for (id obj2 in list2) {
                     if ([obj2 isKindOfClass:[UIImageView class]]) {
                         UIImageView *imageView2=(UIImageView *)obj2;
-                        imageView2.hidden=sign;
+                        imageView2.hidden=YES;
                     }
                 }
             }
